@@ -20,27 +20,3 @@ create table produto(
 );
 
 
---Inserido dados para teste
-insert into categoria (
-  nome
-)
-
-values(
-   'Eletrodomestico'
-  
-);
-
-
-insert into produto (
-    nome
-    ,descricao
-    ,preco
-    ,categoria_id
-)
-values(
-    'Tv'
-     ,'Smart Tv de 60 pol'
-     ,5032.38
-     ,1
-     
-)
